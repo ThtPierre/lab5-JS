@@ -45,6 +45,7 @@ textarea{
     border-style: groove;
     border-radius: 30px;
     border-color: #3ab8fc;
+    align-text: center;
 }
 
 footer{
