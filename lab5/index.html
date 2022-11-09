@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+        <title>Full Review - Pierre TAITHE</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="excel.html">Excel</a></li>
+            </nav>
+        </header>
+
+        <main>
+            <form id="main-form" name="mainform">
+                
+                <input type="text" id="firstname" name="firstname" placeholder="First Name" required><br>
+                <input type="text" id="lastname"  name="lastname" placeholder="Last Name" required><br>
+                <input type="email" id="email"  name="email" placeholder="Em@il" required><br>
+                <input type="text" id="address"  name="address" placeholder="Adress" required><br>
+                <input type="text" id="city"  name="city" placeholder="City" required><br>
+                <input type="text" id="province"  name="province" placeholder="Province" required><br><br>
+
+            <div class="product">
+                <input type="radio" id="premium" name="test" id="premium" value="Premium" checked>
+                <label for="premium">Premium</label>
+                <input type="radio" id="standard" name="test" id="standard" value="Standard">
+                <label for="standard">Standard</label>
+                <input type="radio" id="basic" name="test" id="basic" value="Basic">
+                <label for="basic">Basic</label><br><br><br>
+
+                </div>
+                <div class="boutton">
+                <input type="button" value="Submit" onclick="userForm()">
+                <input type="reset" value="Cancel"><br><br>
+            </div>
+            </form>
+            <div id="output">
+                <p id="result"></p>
+                
+
+            </div>
+        </main>
+
+        <footer>
+            <p>ILAC & EFREI partnership- HTML, CSS and javascript main Labwork- Pierre TAITHE</p>
+        </footer>
+        
+    </body>
+</html>
+

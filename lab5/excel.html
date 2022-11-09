@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+        <title>Full Review - Pierre TAITHE</title>
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="excel.html">Excel</a></li>
+            </nav>
+        </header>
+        <form id="fex" name="fex">
+        <fieldset>
+            <label for="numbers">Enter your numbers separated by spaces</label><br>
+            <textarea id="numbers" name="numbers" rows="1" cols="50"></textarea>
+
+        <div class="question">
+            <input type="radio" id="autosum" name="quest" value="autosum" checked>
+            <label for="autosum">Autosum</label><br>
+            <input type="radio" id="average" name="quest" value="average">
+            <label for="average">Average</label><br>
+            <input type="radio" id="max" name="quest" value="max">
+            <label for="max">Max</label><br>
+            <input type="radio" id="min" name="quest" value="min">
+            <label for="min">Min</label><br><br>
+        </div>
+        <input type="button" value="Calculate" id="bouton" onclick="myExcelFuns()">
+        
+    </fieldset>
+    </form>
+    <div id="output">
+        <p id="result"></p>
+    </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
